@@ -1,0 +1,24 @@
+.album-square {
+    width: 128px;
+    height: 128px;
+    background-color: #DDD;
+    background-image: url('http://lorempixel.com/400/200/');
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.album-square .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s;
+}
+.album-square:hover .overlay {
+    opacity: 1;
+}
