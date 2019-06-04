@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 20px;
+    border: 1px solid #000;
+}
+
+.sidebar {
+    background-color: green;
+    float: left;
+    width: 20%;
+}
+
+.content {
+    margin-left: 20%;
+    width: 80%;
+    background-color: #EEE;
+}
+
+.wrapper {
+    border: 1px solid #000;
+}
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.footer {
+    border: 1px solid #000;
+    height: 30px;
+}
